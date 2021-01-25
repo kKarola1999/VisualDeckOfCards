@@ -22,7 +22,7 @@ public class DeckOfCards {
      */
     public DeckOfCards(ArrayList<Card> deck) {
         this.deck = deck;
-        backOfCardImage = new Image("./images/backOfCard.png");
+        backOfCardImage = new Image("/images/BackCard.png");
     }
 
     /**
@@ -42,7 +42,7 @@ public class DeckOfCards {
             for (String faceName:faceNames)
                 deck.add(new Card(faceName,suit));
         }
-        backOfCardImage = new Image("./images/backOfCard.png");
+        backOfCardImage = new Image("/images/BackCard.png");
     }
 
     public ArrayList<Card> getDeck() {
